@@ -9,4 +9,7 @@ public class TestController {
 
     public static String KEY = "123456";
 
+    public static String KEY = "123456";
+
+
 }

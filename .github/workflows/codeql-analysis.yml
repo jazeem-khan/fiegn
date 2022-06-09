@@ -29,8 +29,6 @@ jobs:
       uses: actions/setup-java@v1.3.0
       with:
         java-version: 17
-    
-    
     permissions:
       actions: read
       contents: read

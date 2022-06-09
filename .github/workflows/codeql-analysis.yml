@@ -73,11 +73,11 @@ jobs:
     #   echo "Run, Build Application using script"
     #   ./location_of_script_within_repo/buildscript.sh
 
-    - if: matrix.language == 'java' 
-      name: Build Java
-      run: |
-        make bootstrap
-        make release
+#    - if: matrix.language == 'java' 
+#      name: Build Java
+#      run: |
+#        make bootstrap
+#        make release
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2

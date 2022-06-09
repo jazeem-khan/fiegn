@@ -6,4 +6,7 @@ public class TestController {
 
     public static String PASSWORD = "123456";
     public static String USERNAME = "Jazeem@allianz.lk";
+
+    public static String KEY = "123456";
+
 }

@@ -11,5 +11,7 @@ public class TestController {
 
     public static String KEY1 = "123456";
 
+    public static String key4 = "123456";
+
 
 }

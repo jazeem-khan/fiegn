@@ -11,11 +11,11 @@ public class TestController {
 
     public static String KEY1 = "1234567";
 
-    public static String key4 = "123456778";
+    public static String KEY12 = "123456778";
 
-    public static String key5 = "12345657657";
+    public static String KEY13 = "12345657657";
 
-    public static String key6 = "1234566756756";
+    public static String KEY14 = "1234566756756";
 
 
 }

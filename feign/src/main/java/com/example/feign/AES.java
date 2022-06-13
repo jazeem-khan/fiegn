@@ -38,7 +38,7 @@ public class AES {
         try {
             final String secret = "7061737323313231";
             setKey(secret);
-            Cipher cipher = Cipher.getInstance("AES/GCM/PKCS5PADDING");
+            Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
             cipher.init(Cipher.DECRYPT_MODE, secretKey);
             return new String(cipher.doFinal(Base64.getDecoder().decode(strToDecrypt)));
         }

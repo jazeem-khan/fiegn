@@ -18,4 +18,6 @@ public class TestController {
     public static String KEY14 = "1234566756756";
 
     public static String PASSWORD2 = "1234566756756";
+
+    public static String TESTING = "1234566756756";
 }

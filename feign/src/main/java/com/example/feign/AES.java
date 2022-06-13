@@ -22,7 +22,7 @@ public class AES {
 
     public static String encrypt(String strToEncrypt) {
         try {
-            final String secret = "7061737323313231";
+            final String secret = "70617373233132311";
             setKey(secret);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
             cipher.init(Cipher.ENCRYPT_MODE, secretKey);
@@ -36,7 +36,7 @@ public class AES {
 
     public static String decrypt(String strToDecrypt) {
         try {
-            final String secret = "7061737323313231";
+            final String secret = "70617373233132311";
             setKey(secret);
             Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");
             cipher.init(Cipher.DECRYPT_MODE, secretKey);
